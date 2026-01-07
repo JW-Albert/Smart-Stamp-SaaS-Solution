@@ -1,0 +1,15 @@
+{
+  "name": "smart-stamp-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Smart Stamp Demo - 展示如何使用 SDK",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

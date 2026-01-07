@@ -1,0 +1,28 @@
+{
+  "name": "smart-stamp-sdk",
+  "version": "1.0.0",
+  "description": "Smart Stamp Web SDK - 觸控採集與座標正規化",
+  "type": "module",
+  "main": "./dist/smart-stamp.es.js",
+  "module": "./dist/smart-stamp.es.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && vite build",
+    "dev": "vite build --watch"
+  },
+  "keywords": [
+    "smart-stamp",
+    "touch",
+    "sdk"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.0"
+  }
+}
+
